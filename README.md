@@ -14,4 +14,6 @@ Thomas: A symmetrical, flowing maze-like system.
 
 What you can do Move around in 3D Use the control panel to change the variables in the equations and see how it alters the shape instantly.
 
-How to run it : Click the green Code button at the top of this page. Click Download ZIP and unzip the folder on your computer.
+How to run it: click on this link: https://nonynony4.github.io/Order-In-Chaos/
+
+How to run it locally: Click the green Code button at the top of this page. Click Download ZIP and unzip the folder on your computer.
