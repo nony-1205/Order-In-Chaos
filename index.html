@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order In Chaos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body>
+
+
+<div id="topbar">
+    <span id="site-title">Strange Attractors</span>
+    
+    <div id="dropdown">
+        <button id="dropdown-btn">
+            Lorenz <span id="dropdown-arrow">▾</span>
+        </button>
+        
+        <div id="dropdown-menu">
+            <a href="#lorenz"          class="nav-link active">Lorenz</a>
+            <a href="#rossler"         class="nav-link">Rössler</a>
+            <a href="#thomas"          class="nav-link">Thomas</a>
+            <a href="#aizawa"          class="nav-link">Aizawa</a>
+            <a href="#shimizu-morioka" class="nav-link">Shimizu‑Morioka</a>
+            <a href="#halvorsen"       class="nav-link">Halvorsen</a>
+            <a href="#chen"            class="nav-link">Chen</a>
+            <a href="#dadras"          class="nav-link">Dadras</a>
+        </div>
+    </div>
+</div>
+
+
+<div id="info-card">
+    <h2 id="info-name">Lorenz</h2>
+    <pre id="info-eqns"></pre>
+    <div id="info-params"></div>
+</div>
+
+
+<div id="transition-overlay"></div>
+<div id="canvas-wrapper">
+    <canvas id="canvas-3d"></canvas>
+    <canvas id="canvas-2d"></canvas>
+</div>
+    </main>
+
+<script src="js/attractors/lorenz.js"></script>
+<script src="js/attractors/aizawa.js"></script>
+<script src="js/attractors/shimizu-morioka.js"></script>
+<script src="js/attractors/thomas.js"></script>
+<script src="js/attractors/rossler.js"></script>
+<script src="js/attractors/halvorsen.js"></script>
+<script src="js/attractors/chen.js"></script>
+<script src="js/attractors/dadras.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
